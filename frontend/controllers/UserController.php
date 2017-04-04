@@ -60,8 +60,12 @@ class UserController extends Controller
     public function actionViewProfile() {
         $id = Yii::$app->user->id;
         $member = User::findOne(['id' => $id]);
+        $sql = "SELECT p.* , u.auth_key FROM product_rating p JOIN USER u ON p.user_id = u.id WHERE u.id = ".$id;
+        $item = Yii::$app->db->createCommand($sql)->queryAll();
+
         return $this->render('view-profile', [
             'model' => $this->findModel($member['id']),
+            'item'=>$item,
         ]);
     }
 

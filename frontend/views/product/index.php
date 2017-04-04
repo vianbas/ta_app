@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'asin',
             'category.category_name',
             [
-                'attribute' => 'produk_nama',
+                'attribute' => 'product_name',
                 'format' => 'raw',
                 'value' => function($model) {
                     return Html::a('' . $model->product_name . '', ['product/view', 'id' => $model->product_id]);

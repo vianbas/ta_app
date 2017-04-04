@@ -51,11 +51,21 @@ class ProductController extends Controller
      */
     public function actionView($id)
     {
-        $sql = "SELECT p.* , u.auth_key FROM product_rating p JOIN USER u ON p.user_id = u.id WHERE p.id_product = ".$id;
+        $sql = "SELECT p.* , u.auth_key FROM product_rating p JOIN USER u ON p.user_id = u.id WHERE p.id_product = " . $id;
+//        $sql = "SELECT overall, user_id, id_product
+//FROM product_rating pr
+//JOIN product p ON p.product_id = pr.id_product
+//JOIN category c ON p.category_id = c.category_id
+//JOIN USER u ON u.id = pr.user_id
+//WHERE u.id IN (
+//	SELECT prd.user_id FROM product_rating prd
+//	WHERE prd.id_product IN (
+//		SELECT pr.id_product FROM product_rating pr WHERE pr.user_id = ".$id.")
+//) ORDER BY pr.user_id";
         $item = Yii::$app->db->createCommand($sql)->queryAll();
         return $this->render('view', [
             'model' => $this->findModel($id),
-            'item'=>$item
+            'item' => $item
         ]);
     }
 

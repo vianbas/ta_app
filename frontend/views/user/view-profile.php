@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="member-view">
 
-    <h1>My Profile</h1>
+    <h1><?php $model->auth_key?>My Profile</h1>
 
     <!--    <p>-->
     <!--?= Html::a('Update Profile', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?-->
@@ -30,6 +30,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'auth_key',
             'email',
         ],
-    ]) ?>
-
+    ]);
+    echo '<h2>Product Review</h2>';
+    foreach($item as $key => $value) {
+        echo '<h5>Id Product : '.$value['id_product'].'</h5>';
+        echo '<h5>Helpful : '.$value['helpful'].'</h5>';
+        echo '<p>Rating : ' .$value['overall'].' ';
+    }
+    ?>
 </div>

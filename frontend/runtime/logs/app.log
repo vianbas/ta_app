@@ -16045,3 +16045,1512 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1491132389.987
     'REQUEST_TIME' => 1491132389
 ]
+2017-04-02 14:18:58 [::1][3][fpgve0rb0i2rgq9ipv3gnk1p5s][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: product_name in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:36
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#6 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-02 14:18:57 [::1][3][fpgve0rb0i2rgq9ipv3gnk1p5s][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => 'fpgve0rb0i2rgq9ipv3gnk1p5s'
+    '_identity-frontend' => 'ec2709c736527146f0e27e1237f3d661f7266a1885344efd0a2ecabcd19ad8f2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:28:\"[3,\"Betsy \\\"Mimi\\\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=22'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=fpgve0rb0i2rgq9ipv3gnk1p5s; _identity-frontend=ec2709c736527146f0e27e1237f3d661f7266a1885344efd0a2ecabcd19ad8f2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A28%3A%22%5B3%2C%22Betsy+%5C%22Mimi%5C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '7831'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491135537.932
+    'REQUEST_TIME' => 1491135537
+]
+2017-04-02 14:20:05 [::1][3][fpgve0rb0i2rgq9ipv3gnk1p5s][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: product_id in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:36
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#6 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-02 14:20:05 [::1][3][fpgve0rb0i2rgq9ipv3gnk1p5s][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => 'fpgve0rb0i2rgq9ipv3gnk1p5s'
+    '_identity-frontend' => 'ec2709c736527146f0e27e1237f3d661f7266a1885344efd0a2ecabcd19ad8f2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:28:\"[3,\"Betsy \\\"Mimi\\\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=22'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=fpgve0rb0i2rgq9ipv3gnk1p5s; _identity-frontend=ec2709c736527146f0e27e1237f3d661f7266a1885344efd0a2ecabcd19ad8f2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A28%3A%22%5B3%2C%22Betsy+%5C%22Mimi%5C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '7904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491135605.486
+    'REQUEST_TIME' => 1491135605
+]
+2017-04-02 14:32:50 [::1][1][-][error][Error] Error: Call to a member function applyTo() on string in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php:224
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="mem...')
+#2 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#3 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-04-02 14:32:50 [::1][1][-][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=22'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '8956'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491136370.121
+    'REQUEST_TIME' => 1491136370
+]
+2017-04-02 14:37:14 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][Error] Error: Class 'Breadcrumbs' not found in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:43
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require()
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#5 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2017-04-02 14:37:14 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '9234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491136634.146
+    'REQUEST_TIME' => 1491136634
+]
+2017-04-02 14:37:49 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][Error] Error: Class 'Alert' not found in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:48
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require()
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#5 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2017-04-02 14:37:48 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '9274'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491136668.946
+    'REQUEST_TIME' => 1491136668
+]
+2017-04-02 14:38:02 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: content in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:50
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php(50): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#6 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-02 14:38:02 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '9292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491136682.807
+    'REQUEST_TIME' => 1491136682
+]
+2017-04-02 14:45:38 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: content in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:50
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php(50): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#6 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-02 14:45:38 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    '_identity' => '3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a:2:{i:0;s:9:\"_identity\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    'PHPSESSID' => 'lh6jr69b3u03eb9b1r7eqag8ht'
+    '_csrf' => 'aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; _identity=3a9e57ee75a41d43b61bb3bc05f61f642a79259876bd44e1aae13bae3d19a2f4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=lh6jr69b3u03eb9b1r7eqag8ht; _csrf=aa96296aa636005783cdaec2d269285064cef9ae90f85a6856731fca506ab959a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ln0lRhlYRd66aaM6DfKOgukdfFj7PzVb%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '9040'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491137138.287
+    'REQUEST_TIME' => 1491137138
+]
+2017-04-02 15:56:43 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Product::category_name in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('category_name')
+#1 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(33): yii\db\BaseActiveRecord->__get('category_name')
+#2 [internal function]: yii\base\View->{closure}(Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(213): call_user_func(Object(Closure), Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(common\models\Product), 1, 0)
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(common\models\Product), 1, 0)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(507): yii\grid\Column->renderDataCell(Object(common\models\Product), 1, 0)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(476): yii\grid\GridView->renderTableRow(Object(common\models\Product), 1, 0)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(139): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(43): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductController))
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\ProductController))
+#21 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(43): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\ProductController->actionIndex()
+#23 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/index', Array)
+#27 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#29 {main}
+2017-04-02 15:56:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_csrf' => 'b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi\";}'
+    'PHPSESSID' => 'kin09ol3dkvg3inasf2ie77cg0'
+    '_identity' => '367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _csrf=b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi%22%3B%7D; PHPSESSID=kin09ol3dkvg3inasf2ie77cg0; _identity=367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '13603'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491141403.848
+    'REQUEST_TIME' => 1491141403
+]
+2017-04-02 15:57:12 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Product::category_name in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('category_name')
+#1 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(33): yii\db\BaseActiveRecord->__get('category_name')
+#2 [internal function]: yii\base\View->{closure}(Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(213): call_user_func(Object(Closure), Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(common\models\Product), 1, 0)
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(common\models\Product), 1, 0)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(507): yii\grid\Column->renderDataCell(Object(common\models\Product), 1, 0)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(476): yii\grid\GridView->renderTableRow(Object(common\models\Product), 1, 0)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(139): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(43): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductController))
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\ProductController))
+#21 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(43): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\ProductController->actionIndex()
+#23 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/index', Array)
+#27 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#29 {main}
+2017-04-02 15:57:11 [::1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_csrf' => 'b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi\";}'
+    'PHPSESSID' => 'kin09ol3dkvg3inasf2ie77cg0'
+    '_identity' => '367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _csrf=b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi%22%3B%7D; PHPSESSID=kin09ol3dkvg3inasf2ie77cg0; _identity=367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '13634'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491141431.961
+    'REQUEST_TIME' => 1491141431
+]
+2017-04-02 15:57:33 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Product::category_name in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('category_name')
+#1 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(33): yii\db\BaseActiveRecord->__get('category_name')
+#2 [internal function]: yii\base\View->{closure}(Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(213): call_user_func(Object(Closure), Object(common\models\Product), 1, 0, Object(yii\grid\DataColumn))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(common\models\Product), 1, 0)
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(common\models\Product), 1, 0)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(507): yii\grid\Column->renderDataCell(Object(common\models\Product), 1, 0)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(476): yii\grid\GridView->renderTableRow(Object(common\models\Product), 1, 0)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(139): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\index.php(43): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductController))
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\ProductController))
+#21 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(43): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\ProductController->actionIndex()
+#23 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/index', Array)
+#27 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#29 {main}
+2017-04-02 15:57:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_csrf' => 'b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi\";}'
+    'PHPSESSID' => 'kin09ol3dkvg3inasf2ie77cg0'
+    '_identity' => '367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _csrf=b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi%22%3B%7D; PHPSESSID=kin09ol3dkvg3inasf2ie77cg0; _identity=367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '13662'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491141453.729
+    'REQUEST_TIME' => 1491141453
+]
+2017-04-02 15:57:47 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('category/view', Array)
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2017-04-02 15:57:47 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'category/view'
+    'category_name' => '1'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_csrf' => 'b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi\";}'
+    'PHPSESSID' => 'kin09ol3dkvg3inasf2ie77cg0'
+    '_identity' => '367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _csrf=b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi%22%3B%7D; PHPSESSID=kin09ol3dkvg3inasf2ie77cg0; _identity=367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '13672'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=category%2Fview&category_name=1'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=category%2Fview&category_name=1'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491141467.027
+    'REQUEST_TIME' => 1491141467
+]
+2017-04-02 15:57:57 [::1][1][1auglq20sehvvsd7iuf9kcgnth][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('category/view', Array)
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2017-04-02 15:57:57 [::1][1][1auglq20sehvvsd7iuf9kcgnth][info][application] $_GET = [
+    'r' => 'category/view'
+    'category_name' => '1'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    '_csrf' => 'b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi\";}'
+    'PHPSESSID' => 'kin09ol3dkvg3inasf2ie77cg0'
+    '_identity' => '367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; _csrf=b6a58c6478eef9d61963de3864356100c53eaf92bbe8db330d116c444927b245a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228QezuZeVyt3SqNu-Lm7OMuPQY2swlLJi%22%3B%7D; PHPSESSID=kin09ol3dkvg3inasf2ie77cg0; _identity=367cd790f50a1326e856ddaf2bf505a09012b09a7ee968b5b314d04ffcaa0f36a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '13692'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=category%2Fview&category_name=1'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=category%2Fview&category_name=1'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491141477.918
+    'REQUEST_TIME' => 1491141477
+]
+2017-04-02 16:47:54 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: auth_key in C:\xampp\htdocs\ta_app\advanced\frontend\views\product\view.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\product\view.php(39): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view', Array, Object(frontend\controllers\ProductController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(68): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\ProductController->actionView('1')
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/view', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-02 16:47:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'product/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    '_csrf-frontend' => '002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5v3C6yNvSK201K0Sip2BnmYgkHX9e66p\";}'
+    'advanced-frontend' => '1auglq20sehvvsd7iuf9kcgnth'
+    'PHPSESSID' => 'a9ve144m8uf97gc2864ol7rabp'
+    '_csrf' => 'ce40ced28bb313cf53b66d42f68183261ed927a0bae360a55d5dfa5dcb5c22f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"A94paekelEnLXfGs4KJYd-mfMgJCkFj7\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; _csrf-frontend=002e2637a825fd5ca73ec67e9615054652259276b80751a332e8445f2e58d540a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225v3C6yNvSK201K0Sip2BnmYgkHX9e66p%22%3B%7D; advanced-frontend=1auglq20sehvvsd7iuf9kcgnth; PHPSESSID=a9ve144m8uf97gc2864ol7rabp; _csrf=ce40ced28bb313cf53b66d42f68183261ed927a0bae360a55d5dfa5dcb5c22f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22A94paekelEnLXfGs4KJYd-mfMgJCkFj7%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Fview&id=1'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=1'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491144474.803
+    'REQUEST_TIME' => 1491144474
+]
+2017-04-03 03:26:15 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\ProductRating::product in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('product')
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('product')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(common\models\ProductRating), 'product', NULL)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(common\models\ProductRating), 'product.product...')
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(common\models\ProductRating), 1, 0)
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(common\models\ProductRating), 1, 0)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(507): yii\grid\Column->renderDataCell(Object(common\models\ProductRating), 1, 0)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(476): yii\grid\GridView->renderTableRow(Object(common\models\ProductRating), 1, 0)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(139): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\ta_app\advanced\frontend\views\product-rating\index.php(44): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductRatingController))
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\ProductRatingController))
+#21 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductRatingController.php(43): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\ProductRatingController->actionIndex()
+#23 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product-rating/...', Array)
+#27 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#29 {main}
+2017-04-03 03:26:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'product-rating/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    'advanced-frontend' => 'b7jeqpnhl24p685vabpl7h54bj'
+    '_csrf-frontend' => '841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=category%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; advanced-frontend=b7jeqpnhl24p685vabpl7h54bj; _csrf-frontend=841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '6229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product-rating%2Findex'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product-rating%2Findex'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491182775.573
+    'REQUEST_TIME' => 1491182775
+]
+2017-04-03 03:27:25 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\ProductRating::product in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('product')
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('product')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(common\models\ProductRating), 'product', NULL)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\DetailView.php(236): yii\helpers\BaseArrayHelper::getValue(Object(common\models\ProductRating), 'product.product...')
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\DetailView.php(141): yii\widgets\DetailView->normalizeAttributes()
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#6 [internal function]: yii\base\Object->__construct(Array)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(136): yii\BaseYii::createObject(Array)
+#11 C:\xampp\htdocs\ta_app\advanced\frontend\views\product-rating\view.php(29): yii\base\Widget::widget(Array)
+#12 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductRatingController))
+#15 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view', Array, Object(frontend\controllers\ProductRatingController))
+#16 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductRatingController.php(55): yii\base\Controller->render('view', Array)
+#17 [internal function]: frontend\controllers\ProductRatingController->actionView('21')
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#21 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product-rating/...', Array)
+#22 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+2017-04-03 03:27:25 [::1][-][-][info][application] $_GET = [
+    'r' => 'product-rating/view'
+    'id' => '21'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    'advanced-frontend' => 'b7jeqpnhl24p685vabpl7h54bj'
+    '_csrf-frontend' => '841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product-rating%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; advanced-frontend=b7jeqpnhl24p685vabpl7h54bj; _csrf-frontend=841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '6314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product-rating%2Fview&id=21'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product-rating%2Fview&id=21'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491182845.759
+    'REQUEST_TIME' => 1491182845
+]
+2017-04-03 03:27:50 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\ProductRating::username in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('username')
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('username')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\DetailView.php(236): yii\helpers\BaseArrayHelper::getValue(Object(common\models\ProductRating), 'username')
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\widgets\DetailView.php(141): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\Object->__construct(Array)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Widget.php(136): yii\BaseYii::createObject(Array)
+#10 C:\xampp\htdocs\ta_app\advanced\frontend\views\product-rating\view.php(29): yii\base\Widget::widget(Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ProductRatingController))
+#14 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view', Array, Object(frontend\controllers\ProductRatingController))
+#15 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductRatingController.php(55): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\ProductRatingController->actionView('21')
+#17 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#20 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product-rating/...', Array)
+#21 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2017-04-03 03:27:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'product-rating/view'
+    'id' => '21'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    'advanced-frontend' => 'b7jeqpnhl24p685vabpl7h54bj'
+    '_csrf-frontend' => '841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product-rating%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; advanced-frontend=b7jeqpnhl24p685vabpl7h54bj; _csrf-frontend=841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '6335'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product-rating%2Fview&id=21'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product-rating%2Fview&id=21'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491182870.213
+    'REQUEST_TIME' => 1491182870
+]
+2017-04-03 03:38:46 [::1][1][b7jeqpnhl24p685vabpl7h54bj][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: product_name in C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php:37
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\frontend\views\user\view-profile.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\UserController))
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view-profile', Array, Object(frontend\controllers\UserController))
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\UserController.php(68): yii\base\Controller->render('view-profile', Array)
+#6 [internal function]: frontend\controllers\UserController->actionViewProfile()
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view-profile', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/view-profi...', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-04-03 03:38:46 [::1][1][b7jeqpnhl24p685vabpl7h54bj][info][application] $_GET = [
+    'r' => 'user/view-profile'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    'Phpstorm-5aeb10c4' => 'efa0252a-bebe-4b4b-b316-f377690af07c'
+    'advanced-frontend' => 'b7jeqpnhl24p685vabpl7h54bj'
+    '_csrf-frontend' => '841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w\";}'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ta_app/advanced/frontend/web/index.php?r=product-rating%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; Phpstorm-5aeb10c4=efa0252a-bebe-4b4b-b316-f377690af07c; advanced-frontend=b7jeqpnhl24p685vabpl7h54bj; _csrf-frontend=841ca16fe12381fc5b46fc65a72249dc0fe1d05bbd7f3360102fbab4afda177aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wOPGFTy6U7qa9Kg7OBnP8AM9pm0R4Y-w%22%3B%7D; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '7059'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview-profile'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=user%2Fview-profile'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491183526.772
+    'REQUEST_TIME' => 1491183526
+]
+2017-04-03 05:43:16 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(65): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\ProductController->actionView('22')
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#12 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/view', Array)
+#13 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\ta_app\advanced\frontend\controllers\ProductController.php(65): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\ProductController->actionView('22')
+#7 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('product/view', Array)
+#11 C:\xampp\htdocs\ta_app\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\ta_app\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2017-04-03 05:43:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/view'
+    'id' => '22'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL'
+    '_identity-frontend' => 'd686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:18:\"[1,\"Viko\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,id;q=0.6'
+    'HTTP_COOKIE' => 'csrftoken=AVKInFhnAix7CW1T6mJMyYZjDRf9Ae70JFiP7wNGdWGJ0gd4WxqrXfkH6YvufNDL; _identity-frontend=d686f4779a9382a888e838c2e286785474ab7a89377ccbbd0651381c75d06ebba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A18%3A%22%5B1%2C%22Viko%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\MATLAB\\R2016b\\bin;C:\\xampp\\php;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\viko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\cmder;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\viko\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/ta_app/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '5710'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Fview&id=22'
+    'REQUEST_URI' => '/ta_app/advanced/frontend/web/index.php?r=product%2Fview&id=22'
+    'SCRIPT_NAME' => '/ta_app/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/ta_app/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491190993.937
+    'REQUEST_TIME' => 1491190993
+]

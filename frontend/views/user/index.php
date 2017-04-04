@@ -16,8 +16,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create User', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
+        <!--?= Html::a('Create User', ['create'], ['class' => 'btn btn-success']) ?>
+    </p-->
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
@@ -27,8 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'username',
             'auth_key',
-            'password_hash',
-            'password_reset_token',
+//            'password_hash',
+//            'password_reset_token',
             // 'email:email',
             // 'status',
             // 'created_at',
